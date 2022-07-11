@@ -1,0 +1,110 @@
+
+nav{
+    background-color: #94B49F;
+    color: white;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-between;
+    position:fixed;
+    width: calc(100% - 10px);
+    border-radius: 10px 10px 10px 10px;
+}
+#title{
+    text-align: center;
+    font-size: 2rem;
+}
+#title p{
+    margin: 5px 15px 5px;
+}
+nav a {
+    color: white;
+    text-decoration: none;
+}
+
+#navbar :first-child{
+    font-weight: bold;
+}
+
+#navbar{
+    flex: 3;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+#content{
+    display:flex;
+    flex-direction: column;
+    justify-content: space-around;
+    position: relative;
+    color: darkgray;
+}
+header{
+    margin:3rem 0 0 0;
+    font-size: 2rem;
+    font-weight: bold;
+}
+
+#creatuser{
+    width: 500px;
+    height: 220px;
+    border: solid 1px black;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+
+.creatlabel{
+    padding: 0 0 0 1rem;
+    text-align: left;
+}
+#creatuserinfo label{
+    padding: 0 5rem 0 1rem;
+    text-align: left;
+}
+
+#creatuser{
+    margin:auto;
+}
+
+#creatuserinfo input{
+    text-align: right;
+}
+
+#button{
+    display:flex;
+    justify-content: center;
+}
+
+#button input{
+    margin: 5px;
+}
+
+#button :nth-child(2){
+    background-color: #4CACBC;
+}
+
+#usercard{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: space-around;
+    margin: 1rem;
+}
+
+.userprofile{
+    flex: 0 0 31%;
+    border: solid 1px black;
+    border-radius: 10px;
+    margin: 3px 0;
+    text-align: center;
+}
+
+.username{
+    font-weight: bold;
+}
+
+.usertext{
+    margin: 16px 2px;
+}

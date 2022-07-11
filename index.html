@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang = "en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>User Management System</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+    <nav>
+        <div id = 'title'>
+            <p>Acme Layout</p>
+        </div>
+        <div id = 'navbar'>
+            <a href="#">Users</a>
+            <a href="#">Departments</a>
+            <a href="#">Contact</a>
+        </div>
+    </nav>
+    <div id="content">
+        <header>
+            <p calss = 'userlabel'>Users<p>
+        </header>
+        <div id ='creatuser'>
+            <p class = 'creatlabel'> Creat A User</p>
+            <form id = 'creatuserinfo'>
+                <label for="firstname">First Name</label>
+                <input type="text" id="firstname" name="firstname" size="44"><br><br>
+                <label for="lastname">Last Name</label>
+                <input type="text" id="lastname" name="lastname" size="44"><br><br>
+                <label for="department">Department</label>
+                <select name = 'department' id='department' style="width: 307px;">
+                    <option value ='none'>--None--</option>
+                    <option value ='cs'>CS</option>
+                    <option value ='mse'>MSE</option>
+                    <option value ='ee'>EE</option>
+                </select><br>
+              </form>
+            <div id="button">
+                <input type="submit" value="Clear">
+                <input type="submit" value="Save">
+            </div>
+        </div>
+        <div id ='usercard'>
+            <div class = 'userprofile'>
+                <p class="username">Alpha</p>
+                <p class="usertext">Alpha is from department of Computer Science and pursuing his master degree.</p>
+            </div>
+            <div class = 'userprofile'>
+                <p class="username">Beta</p>
+                <p class="usertext">Beta is from department of Electrical Engineering and pursuing her bachelor  degree.</p>
+            </div> 
+            <div class = 'userprofile'>
+                <p class="username">Gamma</p>
+                <p class="usertext">Gamma is from department of Physics and pursuing his PhD  degree.</p>
+            </div>
+            <div class = 'userprofile'>
+                <p class="username">Theta</p>
+                <p class="'usertext">THeta is from department of Chemistry and pursuing her master degree.</p>
+            </div>
+            <div class = 'userprofile'>
+                <p class ='username'>Sigma</p>
+                <p class="usertext">Sigma is from department of Materials Science and Engineering and is pursing his master degree.</p>
+            </div>
+            <div class = 'userprofile'>
+                <p class="username">Cody</p>
+                <p class ='usertext'>Alpha is from department of Biology and pursuing her master degree.</p>
+            </div>
+            <div class = 'userprofile'>
+                <p class="username">Eston</p>
+                <p class="usertext">Eston is from department of Computer Science and pursuing his master degree.</p>
+            </div> 
+        </div>
+    </div>
+</body>
